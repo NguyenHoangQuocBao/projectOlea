@@ -157,10 +157,22 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .section-9-content, .section-9-data{
+    .section-9-content{
         width: 100%;
     }
-    .section-9-carousel, .section-9-img, .section-9-data-item{
+    .section-9-data{
+        width: 100%;
+        margin-right: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+       
+    }
+    .section-9-data .section-9-data-item:not(:last-child){
+        margin-right: 0;
+    }
+  
+    .section-9-carousel, .section-9-img{
         width: 50%;
     }
     .section-9-img-left img,.section-9-img-right img{

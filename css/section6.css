@@ -64,4 +64,7 @@
     .section-6-title-large{
         white-space: nowrap;
     }
+    .section-6-right img{
+        width: 100%;
+    }
 }
