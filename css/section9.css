@@ -78,6 +78,26 @@
     flex-direction: column;
 }
 
+.section-9-img-left img{
+    transition: all ease 0.5s;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.section-9-img-left img:hover{
+    scale: 1.05;
+}
+
+.section-9-img-right img{
+    transition: all ease 0.5s;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.section-9-img-right img:hover{
+    scale: 1.05;
+}
+
 .section-9-data{
     margin-top: 70px;
     display: flex;
