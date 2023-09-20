@@ -1,0 +1,254 @@
+#section-4{
+    
+}
+
+.section-4-title{
+    max-width: 833px;
+    margin: 0 auto;
+}
+
+.section-4-title p {
+    text-align: center;
+}
+
+.section-4-line{
+    margin-top: 17px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+.section-4-typo{
+    color: rgba(106, 105, 50, 0.90);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-4-image{
+    margin-top: 55px;
+    position: relative;
+}
+
+.section-4-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-4-image-tag{
+    position: absolute;
+    left: 0;
+    bottom: 37px;
+
+    border-radius: 0px 20px 20px 0px;
+    background: rgba(201, 199, 139, 0.82);
+
+    padding-top: 5px;
+    padding-right: 35px;
+    padding-bottom: 9px;
+    padding-left: 67px;
+}
+
+.section-4-image-title{
+    color: #FFF;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section-4-image-desc{
+    color: #F8F8F8;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.section-4-consultation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.section-4-consultation-title{
+    color: #6A6932;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section-4-consultation-text{
+    color: rgba(106, 105, 50, 0.40);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section-4-consultation-line{
+    margin-top: 10px;
+    max-width: 314px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.90);;
+}
+
+.section-4-consultation-desc{
+    max-width: 397px;
+    margin-top: 50px;
+    color: #151515;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-4-consultation-right{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.section-4-reception{
+    margin: 0 -50px;
+    margin-top: 74px;
+    display: inline-block;
+    position: relative;
+}
+
+.section-4-reception-circle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, 10%);
+    width: 402px;
+    height: 402px;
+    border-radius: 50%;
+    background: rgba(251, 251, 251, 0.95);
+    box-shadow: 2px 5px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4-reception-circle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 50%;
+}
+
+.section-4-reception-circle-top{
+    width: 50%;
+}
+
+.section-4-reception-title{
+    color: var(--secondary-color-1);
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section-4-reception-text{
+    color: rgba(106, 105, 50, 0.40);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.section-4-reception-line{
+    max-width: 195px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.90);
+    margin-top: 9px;
+}
+
+.section-4-reception-desc{
+    color: #151515;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 346px;
+}
+
+.section-4-reception-circle-bottom{
+    margin-top: 54px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .section-4-consultation{
+        flex-direction: column;
+        display: flex;
+    }
+    .section-4-consultation-left{
+        align-items: start;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    .section-4-consultation-right{
+        justify-content: space-around;
+    }
+    .section-4-reception-circle{
+
+        position: relative;
+        box-shadow: none;
+        transform: none;
+        order: 1;
+        background-color: #fff;
+        height: auto;
+        width: auto;
+        margin-bottom: 39px;
+    }
+    .section-4-reception-circle-container{
+        align-items: start;
+        margin-left: 20px;
+    }
+    .section-4-reception{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .section-4-reception-title{
+        font-size: 25px;
+    }
+    .section-4-reception img{
+        width: 100%;
+        order: 2;
+        display: block;
+    }
+   
+    
+}
+@media screen and (max-width: 767px) {
+   
+    
+}

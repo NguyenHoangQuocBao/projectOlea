@@ -1,0 +1,67 @@
+#section-6{
+    
+}
+
+.section-6-left{
+    margin-right: 118px;
+}
+
+.section-6-title-small{
+    color: #6A6932;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-6-title-large{
+    color: #698E2A;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 12px;
+}
+
+.section-6-line{
+    max-width: 114px;
+    height: 1px;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+.section-6-desc-large{
+    color: #6A6932;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 53px;
+}
+
+.section-6-desc-small{
+    color: #000;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #section-6 .container {
+        width: 100%;
+    }
+    .section-6-left, .section-6-right{
+        width: 50%;
+    }
+   
+    .section-6-title-large{
+        white-space: nowrap;
+    }
+}

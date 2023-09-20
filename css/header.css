@@ -1,0 +1,102 @@
+header{
+
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-top-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 90px;
+}
+
+.header-top-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-top-icon{
+    color: #5C5C5C;
+    margin-right: 10px;
+}
+
+.header-top-icon::before{
+    width: 10px;
+    height: 10px;
+}
+
+.header-top-text{
+    color: #5C5C5C;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.header-bottom{
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bottom-nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 65px;
+}
+
+.header-nav{
+    color: #4F542D;
+    font-family: Wix Madefor Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 40px;
+}
+
+.header-bottom-line{
+    background-color: #658B29;
+    width: 100%;
+    height: 1px;
+}
+
+.header-bottom-toggle{
+    display: flex;
+    align-items: end;
+}
+
+.header-bottom-nav-phone{
+    display: none;
+}
+
+.button-nav-phone{
+
+}
+
+.icon-bar{
+    color: #658B28;;
+}
+
+.icon-x{
+    color: #658B28;;
+}
+
+@media screen and (max-width: 768px) {
+    .header-bottom-nav{
+        display: none;
+    }
+
+    .header-bottom-nav-phone{
+        display: block;
+    }
+}
