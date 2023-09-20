@@ -283,7 +283,9 @@
                             trợ sinh sản.</p>
                     </div>
 
-                    <button class="button-secondary" style="margin-top: 46px;">
+                    <button class="button-secondary" style="margin-top: 46px;" onclick="(function(){
+                        document.getElementById(`time-lapse`).scrollIntoView();
+                    })()">
                         <p class="button-secondary-text">Xem Thêm</p>
                     </button>
                 </div>
@@ -314,7 +316,7 @@
         </div>
 
         </div>
-        <div class="section-5-time-lapse">
+        <div class="section-5-time-lapse" id="time-lapse">
             <div class="container">
                 <p class="section-5-time-lapse-text">Time- lapse</p>
                 <p class="section-5-time-lapse-title" style="margin-top: 22px;">HỆ THỐNG TỦ CẤY (TIME-LAPSE)</p>
@@ -337,7 +339,9 @@
                             <img src="./img/section5/IconCheck.png" alt="">
                             <p class="section-5-technology-check-text">“Ưu điểm 3”</p>
                         </div>
-                        <button class="button-primary section-5-button">
+                        <button class="button-primary section-5-button" onclick="(function(){
+                            document.getElementById(`section-11`).scrollIntoView();
+                        })()">
                             <div class="d-flex align-items-center justify-content-between">
                                 <p style="margin-right: 15px;">TÂM SỰ CÙNG OLEA</p>
                                 <div class="button-while-circle">
