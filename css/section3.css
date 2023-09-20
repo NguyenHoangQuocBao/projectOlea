@@ -61,6 +61,34 @@
     left: 100px;
 }
 
+.section-3-left-container-top img{
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.section-3-left-container-top img:hover{
+    scale: 1.05;
+}
+
+.section-3-left-container-bottom img{
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.section-3-left-container-bottom img:hover{
+    scale: 1.05;
+}
+
+.section-3-left-wrapper img{
+    transition: all ease 0.5s;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.section-3-left-wrapper img:hover{
+    scale: 1.05;
+}
+
 .section-3-img-right {
     position: absolute;
     bottom: 0;
