@@ -125,6 +125,16 @@
     justify-content: end;
 }
 
+.section-4-consultation-right img{
+    transition: all ease 0.5s;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.section-4-consultation-right img:hover{
+    scale: 1.05;
+}
+
 .section-4-reception{
     margin: 0 -50px;
     margin-top: 74px;

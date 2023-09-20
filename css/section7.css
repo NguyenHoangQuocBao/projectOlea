@@ -65,6 +65,13 @@
     background: #ABBD38;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
     margin-top: 21px;
+    cursor: pointer;
+}
+
+.section-7-expert-speech:hover{
+    border-radius: 10px 0px;
+    background: #C1D15C;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
 .section-7-expert-speech-content {
@@ -144,16 +151,25 @@
     text-decoration-line: underline;
     margin-top: 21px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .section-7-doctor-reverse {
     flex-direction: row-reverse;
     align-items: flex-end;
-    transform: translateY(-50%);
+    transform: translateY(-25%);
 }
 
 .section-7-doctor-left-reverse {
-    transform: translateY(-50%);
+    transform: translateY(-25%);
+}
+
+.seemore-text-1{
+    display: none;
+}
+
+.seemore-text-2{
+    display: none;
 }
 
 
