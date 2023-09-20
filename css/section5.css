@@ -206,4 +206,7 @@
     .section-5-time-lapse-right{
         width: 100%;
     }
+    .button-secondary-text{
+        white-space: nowrap;
+    }
 }
