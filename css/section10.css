@@ -95,5 +95,8 @@
         row-gap: 20px;
         
     }
+    .section-10-item{
+        margin-right: 0 !important;
+    }
         
 }

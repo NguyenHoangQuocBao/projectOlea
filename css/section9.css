@@ -207,5 +207,13 @@
     .section-9-carousel{
         margin-right: 0;
     }
+    .section-9-img-left{
+        transform: translateX(30px);
+    }
+    .section-9-img-right img{
+        transform: translateX(-34px);
+        transform: translateX(1px);
+        width: 87%;
+    }
 
 }

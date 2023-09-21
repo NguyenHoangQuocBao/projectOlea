@@ -114,8 +114,15 @@
     .section-8-images{
         flex-direction: column;
     }
+    .section-8-images img{
+        width: 100%;
+    }
     .section-8-contents{
         flex-direction: column;
+    }
+    .section-8-content-item{
+        width: 100%;
+        margin-bottom: 20px;
     }
     .item1{
         order: 1;
