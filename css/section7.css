@@ -216,3 +216,40 @@
         display: block;
     }
 }
+@media screen and (max-width: 767px) {
+    .section-7-title{
+        text-align: center;
+    }
+    .section-7-expert{
+        flex-direction: column;
+    }
+    .section-7-expert img{
+        margin-right: 0;
+    }
+    .section-7-expert-content{
+        margin-top: 40px;
+    }
+    .section-7-doctor{
+        flex-direction: column;
+    }
+    .section-7-doctor-left{
+        margin-bottom: 40px;
+    }
+    .section-7-doctor-right img{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    .section-7-expert img{
+        width: 90%;
+    }
+    .section-7-doctor-reverse{
+        transform: translateY(0);
+    }
+    .un_mb{
+        margin-bottom: 0;
+    }
+    .doctor2 img{
+        width: 100%;
+    }
+}

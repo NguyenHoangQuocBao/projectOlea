@@ -72,3 +72,13 @@
         text-transform: uppercase;
     }
 }
+@media screen and (max-width: 767px) {
+    .container {
+        align-items: start !important;
+        width: 100%;
+    }
+    .section-11-right img{
+        width: 50%; 
+    }
+    
+}

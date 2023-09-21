@@ -88,7 +88,7 @@
     </header>
 
     <!-- Section 2 -->
-    <section id="section-2">
+    <!-- <section id="section-2">
         <div class="container d-flex align-items-center justify-content-between">
             <div class="section-2-left col-xl-5 col-sm-12">
                 <div class="section-2-mb">
@@ -125,7 +125,7 @@
                 <div class="section-2-right-border-bottom"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Section 3 -->
     <section id="section-3">
@@ -138,12 +138,12 @@
                 <div class="section-3-left d-flex align-items-center justify-content-center">
                     <div class="section-3-left-container">
                         <div class="section-3-left-container-top">
-                            <p class="section-3-left-text" style="margin-bottom: 11px;">Toàn cảnh VHCP và LM81</p>
+                            <p class="section-3-left-text " style="margin-bottom: 11px;">Toàn cảnh VHCP và LM81</p>
                             <img src="./img/section3/Landmark.png" alt="">
                         </div>
                         <div class="section-3-left-container-bottom">
                             <img src="./img/section3/CentralPark.png" alt="">
-                            <p class="section-3-left-text" style="margin-top: 13px;">OLEA - Vinmec Central Park</p>
+                            <p class="section-3-left-text section-3-left-style" style="margin-top: 13px;">OLEA - Vinmec Central Park</p>
                         </div>
                     </div>
 
@@ -174,15 +174,17 @@
         <div class="container">
             <div class="section-4-title">
                 <p class="text-dark-secondary-bold">
-                    Thiết kế nội thất chuyên dụng
+                    Thiết kế nội <span class="pc_unblock"> thất chuyên dụng</span>
                 </p>
                 <div class="section-4-line"></div>
-                <p class="section-4-typo" style="margin-top: 8px;">
-                    Không gian phòng khám, sảnh chờ và phòng lưu bệnh được thiết kế sang trọng, riêng tư. Các cụm phòng
-                    tư vấn riêng biệt và kín
-                <p class="section-4-typo">
-                    đáo tạo cảm giác thư giãn và thoải mái.
-                </p>
+                <div class="section-4-text-align-left">
+                    <p class="section-4-typo" style="margin-top: 8px;">
+                        Không gian phòng khám, sảnh chờ và phòng lưu bệnh được thiết kế sang trọng, riêng tư. Các cụm phòng
+                        tư vấn riêng biệt và kín
+                        <p class="section-4-typo">
+                            đáo tạo cảm giác thư giãn và thoải mái.
+                        </p>
+                    </div>
                 </p>
             </div>
 
@@ -245,7 +247,7 @@
                     PHÒNG LƯU BỆNH
                 </p>
                 <div class="section-5-line"></div>
-                <p class="section-5-typo" style="margin-top: 8px;">
+                <p class="section-5-typo textLeft" style="margin-top: 8px;">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                 </p>
             </div>
@@ -255,6 +257,11 @@
             </div>
 
             <div class="section-5-technology">
+                <button class="button-secondary mb_block" style="margin-top: 46px;" onclick="(function(){
+                    document.getElementById(`time-lapse`).scrollIntoView();
+                })()">
+                    <p class="button-secondary-text">Xem Thêm</p>
+                </button>
                 <div class="section-5-technology-img">
                     <img src="./img/section5/Technology1.png" alt="">
                     <img src="./img/section5/Technology2.png" alt="" style="margin-top: 5px;">
@@ -262,6 +269,7 @@
                         <img src="./img/section5/Logo.png" alt="">
                     </div>
                 </div>
+               
 
                 <div class="section-5-technology-content">
                     <p class="section-5-technology-text">Kết hợp với</p>
@@ -283,7 +291,7 @@
                             trợ sinh sản.</p>
                     </div>
 
-                    <button class="button-secondary" style="margin-top: 46px;" onclick="(function(){
+                    <button class="button-secondary hidden" style="margin-top: 46px;" onclick="(function(){
                         document.getElementById(`time-lapse`).scrollIntoView();
                     })()">
                         <p class="button-secondary-text">Xem Thêm</p>
@@ -314,6 +322,7 @@
                         <p class="section-5-system-title">Phòng Siêu Âm</p>
                         <p class="section-5-system-desc">Hệ thống cảnh báo toàn diện cho toàn labo (DATAssure).</p>
                     </div>
+                   
                 </div>
             </div>
 
@@ -321,7 +330,7 @@
         <div class="section-5-time-lapse" id="time-lapse">
             <div class="container">
                 <p class="section-5-time-lapse-text">Time- lapse</p>
-                <p class="section-5-time-lapse-title" style="margin-top: 22px;">HỆ THỐNG TỦ CẤY (TIME-LAPSE)</p>
+                <p class="section-5-time-lapse-title" style="margin-top: 22px;">HỆ THỐNG TỦ CẤY<span class="sp_block">(TIME-LAPSE)</span></p>
                 <p class="section-5-time-lapse-text" style="margin-top: 18px;">Hệ thống tủ cấy (Time-lapse) giúp chuyên
                     viên phôi học hiểu rõ sự phát triển của phôi bằng camera theo dõi liên tục</p>
 
@@ -446,7 +455,7 @@
             </div>
 
             <div class="section-7-doctor section-7-doctor-reverse">
-                <div class="section-7-doctor-left section-7-doctor-left-reverse">
+                <div class="section-7-doctor-left un_mb section-7-doctor-left-reverse">
                     <p class="section-7-doctor-name">BSCK. <span class="pc_none"> Nguyễn Thuỳ Linh Trang</p>
                     <p class="section-7-doctor-position">10 năm kinh nghiệm làm việc trong lĩnh vực hỗ trợ sinh sản và
                         sản phụ khoa.</p>
@@ -469,7 +478,7 @@
                         Xem Thêm Thông Tin Bác Sĩ
                     </a>
                 </div>
-                <div class="section-7-doctor-right" style="margin-right: 46px;">
+                <div class="section-7-doctor-right doctor2" style="margin-right: 46px;">
                     <img src="./img/section7/Doctor2.png" alt="">
                 </div>
             </div>
@@ -505,16 +514,16 @@
                         </p>
                     </div>
 
-                    <div class="section-8-content-item">
+                    <div class="section-8-content-item item1">
                         <p class="section-8-content-text-regular">
                             Đồng hành, chăm sóc sức khỏe của bạn
                         </p>
-                        <p class="section-8-content-text-bold">
+                        <p class="section-8-content-text-bold item2">
                             THÀNH THẠO KIẾN THỨC CHUYÊN MÔN
                         </p>
                     </div>
 
-                    <div class="section-8-content-item">
+                    <div class="section-8-content-item item3">
                         <p class="section-8-content-text-regular">
                             Từ lòng chân thành và yêu thương
                         </p>

@@ -1,9 +1,9 @@
-#section-8{
+#section-8 {
     padding-top: 50px;
     padding-bottom: 70px;
 }
 
-.section-8-text{
+.section-8-text {
     color: #6A6932;
     font-family: Mulish;
     font-size: 16px;
@@ -12,7 +12,7 @@
     line-height: normal;
 }
 
-.section-8-title{
+.section-8-title {
     color: #698E2A;
     font-family: Mulish;
     font-size: 30px;
@@ -21,28 +21,28 @@
     line-height: normal;
 }
 
-.section-8-images{
+.section-8-images {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-.section-8-contents{
+.section-8-contents {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 45px;
 }
 
-.section-8-content-item{
+.section-8-content-item {
     padding: 25px 5px;
     border-radius: 10px;
     background: #E8F1DA;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.section-8-content-text-regular{
+.section-8-content-text-regular {
     color: #698E2A;
     text-align: center;
     font-family: Mulish;
@@ -52,7 +52,7 @@
     line-height: normal;
 }
 
-.section-8-content-text-bold{
+.section-8-content-text-bold {
     color: #698E2A;
     text-align: center;
     font-family: Mulish;
@@ -64,33 +64,60 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .section-8-images, .section-8-contents{
+
+    .section-8-images,
+    .section-8-contents {
         width: 100%;
     }
-    .section-8-images img{
+
+    .section-8-images img {
         width: 100%;
         margin-top: 12px;
     }
-    .section-8-content-item{
+
+    .section-8-content-item {
         width: 100%;
     }
-    .section-8-images{
+
+    .section-8-images {
         width: 50%;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
-    .section-8-contents-box{
+
+    .section-8-contents-box {
         width: 100%;
         display: flex;
+        column-gap: 10px;
         align-items: center;
         justify-content: space-between;
         flex-direction: row-reverse;
     }
-    .section-8-contents{
+
+    .section-8-contents {
         display: flex;
         align-items: center;
         flex-direction: column;
         row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #section-8 {
+        margin-top: 70px;
+    }
+    .section-8-contents-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-8-images{
+        flex-direction: column;
+    }
+    .section-8-contents{
+        flex-direction: column;
+    }
+    .item1{
+        order: 1;
     }
 }

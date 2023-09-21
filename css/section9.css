@@ -1,10 +1,10 @@
-#section-9{
+#section-9 {
     padding-top: 35px;
     padding-bottom: 100px;
     background: #F9F9F7;
 }
 
-.section-9-title{
+.section-9-title {
     color: #698E2A;
     font-family: Mulish;
     font-size: 30px;
@@ -13,7 +13,7 @@
     line-height: normal;
 }
 
-.section-9-feedback{
+.section-9-feedback {
     color: #ABBD38;
     font-family: Mulish;
     font-size: 12px;
@@ -22,24 +22,24 @@
     line-height: normal;
 }
 
-.section-9-content{
+.section-9-content {
     margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.section-9-carousel{
+.section-9-carousel {
     margin-right: 120px;
 }
 
-.section-9-carousel-item{
+.section-9-carousel-item {
     border-radius: 20px;
     border: 2px solid #ABBD38;
     padding: 25px;
 }
 
-.section-9-carousel-item-content{
+.section-9-carousel-item-content {
     color: #626262;
     font-family: Mulish;
     font-size: 16px;
@@ -48,14 +48,14 @@
     line-height: normal;
 }
 
-.section-9-carousel-item-user{
+.section-9-carousel-item-user {
     margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.section-9-carousel-item-user-name{
+.section-9-carousel-item-user-name {
     color: #000;
     font-family: Mulish;
     font-size: 16px;
@@ -64,52 +64,52 @@
     line-height: normal;
 }
 
-.section-9-img{
+.section-9-img {
     display: flex;
     align-items: center;
 }
 
-.section-9-img-left{
+.section-9-img-left {
     margin-right: 24px;
 }
 
-.section-9-img-right{
+.section-9-img-right {
     display: flex;
     flex-direction: column;
 }
 
-.section-9-img-left img{
+.section-9-img-left img {
     transition: all ease 0.5s;
     cursor: pointer;
     margin-top: 14px;
 }
 
-.section-9-img-left img:hover{
+.section-9-img-left img:hover {
     scale: 1.05;
 }
 
-.section-9-img-right img{
+.section-9-img-right img {
     transition: all ease 0.5s;
     cursor: pointer;
     margin-top: 14px;
 }
 
-.section-9-img-right img:hover{
+.section-9-img-right img:hover {
     scale: 1.05;
 }
 
-.section-9-data{
+.section-9-data {
     margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.section-9-data .section-9-data-item:not(:last-child){
+.section-9-data .section-9-data-item:not(:last-child) {
     margin-right: 24px;
 }
 
-.section-9-data-item{
+.section-9-data-item {
     padding: 40px;
     border-radius: 10px;
     border: 1px solid #E0E0E0;
@@ -119,11 +119,11 @@
     cursor: pointer;
 }
 
-.section-9-data-item:hover{
+.section-9-data-item:hover {
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-.section-9-data-icon{
+.section-9-data-icon {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -134,7 +134,7 @@
     margin: 0 auto;
 }
 
-.section-9-data-amount{
+.section-9-data-amount {
     color: #698E2A;
     font-family: Mulish;
     font-size: 34px;
@@ -145,7 +145,7 @@
     text-align: center;
 }
 
-.section-9-data-content{
+.section-9-data-content {
     color: #121212;
     font-family: Mulish;
     font-size: 20px;
@@ -157,26 +157,55 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .section-9-content{
+    .section-9-content {
         width: 100%;
     }
-    .section-9-data{
+
+    .section-9-data {
         width: 100%;
         margin-right: 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-       
+
     }
-    .section-9-data .section-9-data-item:not(:last-child){
+
+    .section-9-data .section-9-data-item:not(:last-child) {
         margin-right: 0;
     }
-  
-    .section-9-carousel, .section-9-img{
+
+    .section-9-carousel,
+    .section-9-img {
         width: 50%;
     }
-    .section-9-img-left img,.section-9-img-right img{
+
+    .section-9-img-left img,
+    .section-9-img-right img {
         width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .section-9-content {
+        flex-direction: column;
+    }
+
+    .section-9-img {
+        margin-top: 50px;
+    }
+
+    .section-9-data {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .section-9-data .section-9-data-item:not(:last-child) {
+        margin-right: 0;
+    }
+    .section-9-carousel{
+        margin-right: 0;
     }
 
 }

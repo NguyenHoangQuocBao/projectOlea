@@ -227,7 +227,6 @@
         justify-content: space-around;
     }
     .section-4-reception-circle{
-
         position: relative;
         box-shadow: none;
         transform: none;
@@ -259,6 +258,56 @@
     
 }
 @media screen and (max-width: 767px) {
-   
-    
+    .text-dark-secondary-bold{
+        text-transform: uppercase;
+    }
+    .pc_unblock{
+        display: block;
+    }
+    p.section-4-typo{
+        text-align: left;
+    }
+    .section-4-text-align-left{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .section-4-image img{
+        border-radius: 16px;
+    }
+    .section-4-consultation{
+        flex-direction: column;
+        align-items: start;
+    }
+    .section-4-consultation-right {
+        width: 100%;
+        flex-direction: column;
+        align-items: normal;
+        row-gap: 50%;
+    }
+    .section-4-consultation-right img{
+        width: 100%;
+    }
+    .section-4-consultation-left{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .section-4-reception-circle{
+        position: relative;
+        box-shadow: none;
+        transform: none;
+        order: 1;
+        background-color: #fff;
+        height: auto;
+        width: auto;
+        margin-bottom: 39px;
+    }
+    .section-4-reception{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 50px 0 0 0;
+    }
+    .section-4-reception-circle-container{
+        align-items: start;
+        /* margin-left: 5%; */
+    }
 }

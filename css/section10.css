@@ -84,3 +84,16 @@
 
     }
 }
+
+@media screen and (max-width: 767px) {
+    .section-10{
+        text-align: center;
+    }
+    .section-10-content{
+        flex-direction: column;
+        margin-right: 0;
+        row-gap: 20px;
+        
+    }
+        
+}

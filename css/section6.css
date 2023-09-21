@@ -68,3 +68,15 @@
         width: 100%;
     }
 }
+@media screen and (max-width: 767px) {
+    .container{
+        flex-direction: column;
+    }
+    .section-6-left{
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    .section-6-right img{
+        width: 50%;
+    }
+}
