@@ -119,6 +119,9 @@
     .section-3-right {
         width: 50%;
     }
+    .section-3-title-line{
+        width: 30%;
+    }
 
     .section-3-wrapper {
         display: flex;
@@ -136,6 +139,16 @@
     .section-3-right-text-desc {
         display: block;
 
+    }
+    .section-3-title-line{
+        left: 30%;
+        width: 400px;
+    }
+    .section-3-img-right {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        right: 0%;
     }
 }
 @media screen and (max-width: 767px) {
@@ -168,6 +181,49 @@
    .section-3-left-container-top img{
     width: 70%;
    }
+
+
+   /*custom sp*/
+   .section-3-title-line{
+    width: 100%;
+   }
+   .text-dark-primary-bold{
+    font-size: 20px;
+   }
+   .text-dark-primary-bold{
+    text-align: center;
+   }
+   .section-3-left-container{
+    margin-right: 0;
+   }
+   .section-3-left-text-left{
+    text-align: left;
+    padding-left: 70px;
+    color: var(--secondary-color-1);
+    font-family: Wix Madefor Text;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+   }
+   .section-3-reverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+   }
+   .section-3-right{
+    margin-left: 0;
+   }
+   .section-3-img-right {
+    position: absolute;
+    bottom: 0;
+    top: 35%;
+    right: 0%;
+}
+.section-3-right-text, .section-3-right-text-desc{
+    font-size: 12px;
+}
   
     
 }

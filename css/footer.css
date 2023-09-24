@@ -1,26 +1,26 @@
-footer{
+footer {
     padding-left: 162px;
     padding-right: 162px;
     padding-top: 53px;
-    padding-bottom: 90px; 
+    padding-bottom: 90px;
 
     background: #E8F1DA;
 }
 
-.footer-info{
+.footer-info {
     display: flex;
     align-items: center;
 }
 
-.footer-info-icon{
+.footer-info-icon {
     color: #436300;
 }
 
-.footer-info:not(:first-child){
+.footer-info:not(:first-child) {
     margin-top: 40px;
 }
 
-.footer-info-content{
+.footer-info-content {
     margin-left: 19px;
     color: #436300;
     font-family: Mulish;
@@ -30,7 +30,7 @@ footer{
     line-height: normal;
 }
 
-.footer-social-container{
+.footer-social-container {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -38,11 +38,11 @@ footer{
     position: relative;
 }
 
-.footer-social-img{
+.footer-social-img {
     margin-right: 65px;
 }
 
-.footer-social-line{
+.footer-social-line {
     position: absolute;
     width: 50%;
     height: 1px;
@@ -52,7 +52,7 @@ footer{
     transform: translateY(25px);
 }
 
-.footer-copyright{
+.footer-copyright {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -68,35 +68,72 @@ footer{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    footer{
+    footer {
         padding: 50px 0 50px 0;
     }
+
     .container {
         width: 100%;
     }
-    .footer-left{
+
+    .footer-left {
         width: 70%
     }
-    .footer-right{
+
+    .footer-right {
         width: 30%;
     }
-    .footer-right img{
+
+    .footer-right img {
         width: 100%;
     }
-    .footer-social-container{
+
+    .footer-social-container {
         justify-content: start;
     }
 }
 
 @media screen and (max-width: 767px) {
-    footer{
+    footer {
         padding-left: 0;
         padding-right: 0;
     }
-    footer-right img{
+
+    footer-right img {
         width: 50%;
     }
-    .footer-left{
+
+    .footer-left {
         width: 100%;
+    }
+
+    .footer-right {
+        width: 100%;
+        text-align: right;
+
+    }
+
+    .footer-right img {
+        width: 50%;
+    }
+
+    .footer-copyright_SP {
+        margin-top: 56px;
+        text-align: center;
+        color: #658B29;
+        font-family: Mulish;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal
+    }
+
+    .footer_line {
+        padding-top: 16px;
+        border-top: 1px solid #fff;
+    }
+
+    .footer-social-line {
+        display: none;
     }
 }

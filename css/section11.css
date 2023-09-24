@@ -59,26 +59,36 @@
     .container{
         width: 100%;
     }
-    .section-11-left{
-        width: 70%;
-    }
-    .section-11-right{
-        width: 30%;
-    }
     .section-11-right img{
         width: 100%;
     }
     .section-11-title{
         text-transform: uppercase;
     }
+    .section-11-right{
+        width: 30%;
+    }
+    .section-11-custom{
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
 }
 @media screen and (max-width: 767px) {
-    .container {
-        align-items: start !important;
-        width: 100%;
+    .section-11-right{
+        text-align: right;
     }
     .section-11-right img{
-        width: 50%; 
+        width: 100%;
     }
+    .section-11-custom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .button-primary{
+        display: block;
+    }
+   
     
 }

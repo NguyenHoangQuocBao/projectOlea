@@ -107,24 +107,29 @@
     #section-8 {
         margin-top: 70px;
     }
-    .section-8-contents-box{
+
+    .section-8-contents-box {
         display: flex;
         flex-direction: column;
     }
-    .section-8-images{
+
+    .section-8-images {
         flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
-    .section-8-images img{
+
+    .section-8-images img {
         width: 100%;
     }
-    .section-8-contents{
+
+    .section-8-contents {
         flex-direction: column;
     }
-    .section-8-content-item{
+
+    .section-8-content-item {
         width: 100%;
-        margin-bottom: 20px;
     }
-    .item1{
-        order: 1;
-    }
+   
+
 }

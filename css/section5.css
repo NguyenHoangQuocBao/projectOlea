@@ -1,8 +1,8 @@
-#section-5{
+#section-5 {
     padding: 50px;
 }
 
-.section-5-title{
+.section-5-title {
     max-width: 833px;
     margin: 0 auto;
 }
@@ -10,21 +10,23 @@
 .section-5-title p {
     text-align: center;
 }
-.section-5-button{
+
+.section-5-button {
     margin-top: 75px;
 }
 
-.section-5-line{
+.section-5-line {
     margin-top: 17px;
     width: 100%;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.90);
 }
-.section-5-layout{
+
+.section-5-layout {
     margin-top: 57px;
 }
 
-.section-5-typo{
+.section-5-typo {
     color: #151515;
     font-family: Mulish;
     font-size: 16px;
@@ -33,34 +35,34 @@
     line-height: normal;
 }
 
-.section-5-image{
+.section-5-image {
     margin-top: 50px;
 }
 
-.section-5-image img{
+.section-5-image img {
     border-radius: 15px;
     width: 100%;
     height: 100%;
 }
 
-.section-5-technology{
+.section-5-technology {
     margin-top: 103px;
     display: flex;
     align-items: center;
 }
 
-.section-5-technology-img{
+.section-5-technology-img {
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.section-5-technology-img img:not(:last-child){
+.section-5-technology-img img:not(:last-child) {
     max-width: 307px;
     height: 246px;
 }
 
-.section-5-technology-img-icon{
+.section-5-technology-img-icon {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -71,11 +73,11 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.section-5-technology-content{
+.section-5-technology-content {
     margin-left: 120px;
 }
 
-.section-5-technology-text{
+.section-5-technology-text {
     color: #6A6932;
     font-family: Mulish;
     font-size: 18px;
@@ -85,7 +87,7 @@
     margin-top: 24px;
 }
 
-.section-5-technology-title{
+.section-5-technology-title {
     color: #698E2A;
     font-family: Mulish;
     font-size: 30px;
@@ -95,23 +97,23 @@
     margin-top: 24px;
 }
 
-.section-5-technology-desc{
+.section-5-technology-desc {
     color: #BAB86C;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 24px;    
+    margin-top: 24px;
 }
 
-.section-5-technology-check{
+.section-5-technology-check {
     display: flex;
     align-items: center;
     margin-top: 24px;
 }
 
-.section-5-technology-check-text{
+.section-5-technology-check-text {
     color: #000;
     font-family: Mulish;
     font-size: 16px;
@@ -121,14 +123,14 @@
     margin-left: 21px;
 }
 
-.section-5-systems{
+.section-5-systems {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 88px;
 }
 
-.section-5-system-item{
+.section-5-system-item {
     border-radius: 20px;
     background: #FFF;
     box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
@@ -140,21 +142,23 @@
     transition: all ease 0.5s;
     cursor: pointer;
 }
-.mb_block{
+
+.mb_block {
     display: none;
 }
-.section-5-system-item:hover{
+
+.section-5-system-item:hover {
     scale: 1.05;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-.section-5-system-img{
+.section-5-system-img {
     transform: translateY(-23px);
 }
 
-.section-5-system-title{
+.section-5-system-title {
     color: #436300;
     font-family: Mulish;
     font-size: 18px;
@@ -164,7 +168,7 @@
     text-align: center;
 }
 
-.section-5-system-desc{
+.section-5-system-desc {
     color: rgba(0, 0, 0, 0.70);
     font-family: Mulish;
     font-size: 16px;
@@ -174,33 +178,33 @@
     margin-top: 9px;
 }
 
-.section-5-time-lapse{
+.section-5-time-lapse {
     background: #F9F9F7;
     margin: 0 -50px;
     margin-top: 73px;
     padding: 45px 0;
 }
 
-.section-5-time-lapse-left img{
+.section-5-time-lapse-left img {
     transition: all ease 0.5s;
     cursor: pointer;
     margin-top: 14px;
 }
 
-.section-5-time-lapse-left img:hover{
+.section-5-time-lapse-left img:hover {
     scale: 1.05;
 }
 
-.section-5-time-lapse-text{
+.section-5-time-lapse-text {
     color: #6A6932;
     font-family: Mulish;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal;
 }
 
-.section-5-time-lapse-title{
+.section-5-time-lapse-title {
     color: #698E2A;
     font-family: Mulish;
     font-size: 30px;
@@ -209,7 +213,7 @@
     line-height: normal;
 }
 
-.section-5-time-lapse-content{
+.section-5-time-lapse-content {
     color: #000;
     font-family: Mulish;
     font-size: 16px;
@@ -217,67 +221,84 @@
     font-weight: 400;
     line-height: normal;
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .section-5-layout{
+    .section-5-layout {
         flex-direction: column;
     }
-    .section-5-button{
+
+    .section-5-button {
         margin-top: 41px;
         margin-bottom: 50px;
     }
-    .section-5-time-lapse-right{
+
+    .section-5-time-lapse-right {
         width: 100%;
     }
-    .button-secondary-text{
+
+    .button-secondary-text {
         white-space: nowrap;
     }
-    .section-5-technology-content{
+
+    .section-5-technology-content {
         margin-left: 40px;
     }
-    
+
 }
+
 @media screen and (max-width: 767px) {
-    #section-5{
+    #section-5 {
         padding: 0;
     }
-    .section-5-title .text-dark-secondary-bold{
+
+    .section-5-title .text-dark-secondary-bold {
         text-align: left;
     }
-    .textLeft{
+
+    .textLeft {
         text-align: left !important;
     }
-    .section-5-technology{
+
+    .section-5-technology {
         margin-top: 100px;
         display: flex;
         flex-direction: column-reverse;
     }
-    .section-5-technology-content{
+
+    .section-5-technology-content {
         margin-left: 0;
         margin-bottom: 50px;
     }
-    .hidden{
+
+    .hidden {
         display: none;
     }
-    .mb_block{
+
+    .mb_block {
         display: block;
-        
+
     }
-    .section-5-layout{
+
+    .section-5-layout {
         flex-direction: column;
         margin-top: 30px;
     }
 
-    .section-5-time-lapse-left, .section-5-time-lapse-right{
+    .section-5-time-lapse-left,
+    .section-5-time-lapse-right {
         width: 100%;
     }
-    .button-secondary-text{
+
+    .button-secondary-text {
         font-size: 15px;
         white-space: nowrap;
     }
+
     img.section-5-time-lapse-left-img {
         width: 100%;
     }
-    .section-5-button{
+
+    .section-5-button {
         display: block;
         width: 60%;
         margin-left: auto;
@@ -285,7 +306,8 @@
         margin-top: 41px;
         margin-bottom: 50px;
     }
-    .section-5-time-lapse{
-    margin: 0;
+
+    .section-5-time-lapse {
+        margin: 0;
     }
 }

@@ -215,5 +215,11 @@
         transform: translateX(1px);
         width: 87%;
     }
+    .section-9-data-content{
+        font-size: 14px;
+    }
+    .section-9-data-item{
+        padding: 18px;
+    }
 
 }
