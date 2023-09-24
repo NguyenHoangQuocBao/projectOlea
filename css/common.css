@@ -4,6 +4,9 @@
   --secondary-color-1: #436300;
 }
 
+
+/*Custom hidden and block Section*/
+
 /* Text */
 .text-light-primary{
   color: var(--primary-color-1);

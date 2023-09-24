@@ -47,3 +47,5 @@ function toggleText2()
         status2 = "less"
     }
 }
+
+
