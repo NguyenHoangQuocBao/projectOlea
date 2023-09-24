@@ -6,9 +6,47 @@
 
 
 /*Custom hidden and block Section*/
+.pc_block,
+.tbl_block {
+  display: block
+}
+
+.sp_block,
+.small_sp_block,
+.d_none {
+  display: none !important
+  
+}
+
+/* @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tbl_block{
+    display: block !important
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  .pc_block {
+    display: none !important
+  }
+  .sp_block {
+    display: block !important
+  }
+ 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .pc_block {
+    display: none !important
+  }
+  .d_none {
+    display: block !important
+  }
+}
+
+
 
 /* Text */
-.text-light-primary{
+.text-light-primary {
   color: var(--primary-color-1);
   font-family: Mulish;
   font-size: 30px;
@@ -17,7 +55,7 @@
   line-height: normal;
 }
 
-.text-light-primary-bold{
+.text-light-primary-bold {
   color: var(--primary-color-1);
   font-family: Mulish;
   font-size: 30px;
@@ -26,7 +64,7 @@
   line-height: normal;
 }
 
-.text-dark-primary-bold{
+.text-dark-primary-bold {
   color: var(--primary-color-2);
   font-family: Mulish;
   font-size: 36px;
@@ -35,7 +73,7 @@
   line-height: normal;
 }
 
-.text-dark-secondary-bold{
+.text-dark-secondary-bold {
   color: var(--secondary-color-1);
   font-family: Mulish;
   font-size: 30px;
@@ -45,7 +83,7 @@
 }
 
 /* Button */
-.button-primary{
+.button-primary {
   background-color: var(--primary-color-1);
   border-radius: 40px;
 
@@ -63,7 +101,7 @@
   line-height: normal;
 }
 
-.button-while-circle{
+.button-while-circle {
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -79,14 +117,14 @@
   color: var(--primary-color-1);
 }
 
-.button-secondary{
+.button-secondary {
   background-color: #fff;
   padding: 13px 85px;
   border-radius: 50px;
   border: 1px solid #436300;
 }
 
-.button-secondary-text{
+.button-secondary-text {
   color: #436300;
   font-family: Mulish;
   font-size: 18px;
@@ -127,7 +165,7 @@
   transition: .4s all ease;
 }
 
-.toggle-vn{
+.toggle-vn {
   color: #436300;
   font-family: Wix Madefor Text;
   font-size: 18px;
@@ -142,7 +180,7 @@
   transform: translateY(-50%);
 }
 
-.toggle-en{
+.toggle-en {
   color: #000;
   font-family: Wix Madefor Text;
   font-size: 18px;
@@ -156,35 +194,35 @@
   transform: translateY(-50%);
 }
 
-.checkbox{
+.checkbox {
   opacity: 0;
   width: 0;
   height: 0;
   display: none;
 }
 
-.checkbox:checked + .toggle-thumb:before {
+.checkbox:checked+.toggle-thumb:before {
   content: url(../img/header/vietnam.png);
   transform: translateX(35px);
 }
 
-.checkbox:checked + .toggle-thumb {
+.checkbox:checked+.toggle-thumb {
   border: 2px solid #436300;
 }
 
-.checkbox:checked + .toggle-thumb > .toggle-vn{
+.checkbox:checked+.toggle-thumb>.toggle-vn {
   display: block;
 }
 
-.checkbox:checked + .toggle-thumb > .toggle-en{
+.checkbox:checked+.toggle-thumb>.toggle-en {
   display: none;
 }
 
-.checkbox + .toggle-thumb > .toggle-vn{
+.checkbox+.toggle-thumb>.toggle-vn {
   display: none;
 }
 
-.checkbox + .toggle-thumb > .toggle-en{
+.checkbox+.toggle-thumb>.toggle-en {
   display: block;
 }
 
@@ -193,14 +231,21 @@
   opacity: 1;
   pointer-events: all;
 }
+
 .scrollFade--hidden {
   opacity: 0;
   pointer-events: none;
 }
+
 .scrollFade--visible {
   opacity: 1;
   pointer-events: all;
 }
+
 .scrollFade--animate {
   transition: opacity 1s ease-in-out;
 }
+
+
+
+

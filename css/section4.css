@@ -213,7 +213,7 @@
     margin-top: 54px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .section-4-consultation{
         flex-direction: column;
         display: flex;
@@ -250,9 +250,8 @@
         font-size: 25px;
     }
     .section-4-reception img{
-        width: 100%;
+        width: 80%;
         order: 2;
-        display: block;
     }
    
     
@@ -304,7 +303,7 @@
     .section-4-reception{
         display: flex;
         flex-direction: column-reverse;
-        margin: 50px 0 0 0;
+        margin: 50px 0 50px 0;
     }
     .section-4-reception-circle-container{
         align-items: start;

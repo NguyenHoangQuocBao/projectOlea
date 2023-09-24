@@ -38,6 +38,7 @@
 }
 
 .section-5-image img{
+    border-radius: 15px;
     width: 100%;
     height: 100%;
 }
@@ -230,8 +231,15 @@
     .button-secondary-text{
         white-space: nowrap;
     }
+    .section-5-technology-content{
+        margin-left: 40px;
+    }
+    
 }
 @media screen and (max-width: 767px) {
+    #section-5{
+        padding: 0;
+    }
     .section-5-title .text-dark-secondary-bold{
         text-align: left;
     }
@@ -253,9 +261,6 @@
     .mb_block{
         display: block;
         
-    }
-    .sp_block{
-        display: block;
     }
     .section-5-layout{
         flex-direction: column;
@@ -279,5 +284,8 @@
         margin-right: auto;
         margin-top: 41px;
         margin-bottom: 50px;
+    }
+    .section-5-time-lapse{
+    margin: 0;
     }
 }

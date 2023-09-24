@@ -100,6 +100,16 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .section_layout{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .section-2-left-leaf-1{
+        left: 0;
+    }
+    .section-2-left-leaf-2{
+        right: 0;
+    }
     .container{
         width: 100%;
     }
