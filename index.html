@@ -49,7 +49,23 @@
             <div class="header-bottom">
                 <img src="./img/header/Logo.png" alt="" class="header-bottom-logo">
 
-                <div class="header-bottom-nav">
+                <div class="header-bottom-nav pc_block">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <a href="#section-2" class="header-nav">About OLEA</a>
+                        <a href="#section-4" class="header-nav">Our Facilities</a>
+                        <a href="#section-11" class="header-nav">Book a Visit</a>
+                    </div>
+                    <div class="header-bottom-line"></div>
+                </div>
+                <div class="header-bottom-nav d_none">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <a href="#section-2" class="header-nav">About OLEA</a>
+                        <a href="#section-4" class="header-nav">Our Facilities</a>
+                        <a href="#section-11" class="header-nav">Book a Visit</a>
+                    </div>
+                    <div class="header-bottom-line"></div>
+                </div>
+                <div class="header-bottom-nav sp_block">
                     <div class="d-flex align-items-center justify-content-between">
                         <a href="#section-2" class="header-nav">About OLEA</a>
                         <a href="#section-4" class="header-nav">Our Facilities</a>
@@ -84,6 +100,8 @@
 
 
             </div>
+
+            
         </div>
     </header>
 
@@ -445,9 +463,11 @@
             </div>
 
             <div class="section-5-technology">
-                <button class="button-secondary mb_block" style="margin-top: 46px;" onclick="(function(){
+                <button class="button-secondary sp_block" style="margin-top: 46px;" onclick="(function(){
                     document.getElementById(`time-lapse`).scrollIntoView();
                 })()">
+             
+                    <p class="button-secondary-text">Xem Thêm</p>
                     <p class="button-secondary-text">Xem Thêm</p>
                 </button>
                 <div class="section-5-technology-img">
@@ -479,7 +499,12 @@
                             trợ sinh sản.</p>
                     </div>
 
-                    <button class="button-secondary hidden" style="margin-top: 46px;" onclick="(function(){
+                    <button class="button-secondary hidden pc_block" style="margin-top: 46px;" onclick="(function(){
+                        document.getElementById(`time-lapse`).scrollIntoView();
+                    })()">
+                        <p class="button-secondary-text">Xem Thêm</p>
+                    </button>
+                    <button class="button-secondary hidden d_none" style="margin-top: 46px;" onclick="(function(){
                         document.getElementById(`time-lapse`).scrollIntoView();
                     })()">
                         <p class="button-secondary-text">Xem Thêm</p>
@@ -487,39 +512,13 @@
                 </div>
 
             </div>
-            <!-- <div class="swiper mySwiper pc_block">
-                <div class="section-5-systems swiper-wrapper">
-                    <div class="section-5-system-item swiper-slide">
-                        <img src="./img/section5/UltrasoundRoom.png" class="section-5-system-img">
-                        <p class="section-5-system-title">Phòng Siêu Âm</p>
-                        <p class="section-5-system-desc">Trang thiết bị khám và siêu âm hiện đại: Hỗ trợ cho việc theo
-                            dõi
-                            nang noãn và nội mạc tử cung.</p>
-                    </div>
-
-                    <div class="section-5-system-item swiper-slide">
-                        <img src="./img/section5/EmbryoStorageSystem.png" class="section-5-system-img">
-                        <p class="section-5-system-title">Phòng Siêu Âm</p>
-                        <p class="section-5-system-desc">Hệ thống lưu trữ phôi bằng hơi ni tơ: Lần đầu tiên được sử
-                            dụng
-                            trong IVF tại Việt Nam giúp an toàn lưu trữ, tránh lây nhiễm chéo giữa các phôi.</p>
-                    </div>
-
-                    <div class="section-5-system-item swiper-slide">
-                        <img src="./img/section5/WarningSystem.png" class="section-5-system-img">
-                        <p class="section-5-system-title">Phòng Siêu Âm</p>
-                        <p class="section-5-system-desc">Hệ thống cảnh báo toàn diện cho toàn labo (DATAssure).</p>
-                    </div>
-
-                </div>
-            </div> -->
-
 
             <div class="wrapper pc_block">
                 <i id="left" class="fa-solid fa-angle-left"></i>
                 <ul class="carousel">
                     <li class="card">
-                        <div class="img "><img src="./img/section5/UltrasoundRoom.png" alt="img" draggable="false">
+                        <div class="img ">
+                            <img src="./img/section5/UltrasoundRoom.png" alt="img" draggable="false">
                         </div>
                         <p class="section-5-system-title">Phòng Siêu Âm</p>
                         <p class="section-5-system-desc">Trang thiết bị khám và siêu âm hiện đại: Hỗ trợ cho việc theo
@@ -641,30 +640,76 @@
 
             <!-----------MB-------------->
 
-            <div class="swiper mySwiper sp_block">
-                <div class="section-5-systems swiper-wrapper">
-                    <div class="section-5-system-item swiper-slide">
-                        <img src="./img/section5/UltrasoundRoom.png" class="section-5-system-img">
-                        <p class="section-5-system-title">Phòng Siêu Âm</p>
-                        <p class="section-5-system-desc">Trang thiết bị khám và siêu âm hiện đại: Hỗ trợ cho việc theo
-                            dõi
-                            nang noãn và nội mạc tử cung.</p>
+            <div class="container sp_block">
+                <input type="radio" name="dot" id="one">
+                <input type="radio" name="dot" id="two">
+                <input type="radio" name="dot" id="three">
+                <div class="main-card">
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./img/section5/UltrasoundRoom.png" class="section-5-system-img">
+                            <p class="section-5-system-title">Phòng Siêu Âm</p>
+                            <p class="section-5-system-desc">Trang thiết bị khám và siêu âm hiện đại: Hỗ trợ cho việc
+                                theo dõi nang noãn và nội mạc tử cung.</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/section5/EmbryoStorageSystem.png" class="section-5-system-img">
+                            <p class="section-5-system-title">Hệ Thống Lưu Trữ Phôi</p>
+                            <p class="section-5-system-desc">Hệ thống lưu trữ phôi bằng hơi ni tơ: Lần đầu tiên được sử
+                                dụng trong IVF tại Việt Nam giúp an toàn lưu trữ, tránh lây nhiễm chéo giữa các phôi.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/section5/WarningSystem.png" class="section-5-system-img">
+                            <p class="section-5-system-title">Hệ Thống Cảnh Báo</p>
+                            <p class="section-5-system-desc">Hệ thống cảnh báo toàn diện cho toàn labo (DATAssure).</p>
+                        </div>
                     </div>
-
-                    <div class="section-5-system-item swiper-slide">
-                        <img src="./img/section5/EmbryoStorageSystem.png" class="section-5-system-img">
-                        <p class="section-5-system-title">Phòng Siêu Âm</p>
-                        <p class="section-5-system-desc">Hệ thống lưu trữ phôi bằng hơi ni tơ: Lần đầu tiên được sử
-                            dụng
-                            trong IVF tại Việt Nam giúp an toàn lưu trữ, tránh lây nhiễm chéo giữa các phôi.</p>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./img/section5/UltrasoundRoom.png" class="section-5-system-img">
+                            <p class="section-5-system-title">Phòng Siêu Âm</p>
+                            <p class="section-5-system-desc">Trang thiết bị khám và siêu âm hiện đại: Hỗ trợ cho việc
+                                theo dõi nang noãn và nội mạc tử cung.</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/section5/EmbryoStorageSystem.png" class="section-5-system-img">
+                            <p class="section-5-system-title">Hệ Thống Lưu Trữ Phôi</p>
+                            <p class="section-5-system-desc">Hệ thống lưu trữ phôi bằng hơi ni tơ: Lần đầu tiên được sử
+                                dụng trong IVF tại Việt Nam giúp an toàn lưu trữ, tránh lây nhiễm chéo giữa các phôi.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/section5/WarningSystem.png" class="section-5-system-img">
+                            <p class="section-5-system-title">Hệ Thống Cảnh Báo</p>
+                            <p class="section-5-system-desc">Hệ thống cảnh báo toàn diện cho toàn labo (DATAssure).</p>
+                        </div>
                     </div>
-
-                    <div class="section-5-system-item swiper-slide">
-                        <img src="./img/section5/WarningSystem.png" class="section-5-system-img">
-                        <p class="section-5-system-title">Phòng Siêu Âm</p>
-                        <p class="section-5-system-desc">Hệ thống cảnh báo toàn diện cho toàn labo (DATAssure).</p>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./img/section5/UltrasoundRoom.png" class="section-5-system-img">
+                            <p class="section-5-system-title">Hệ Thống Lưu Trữ Phôi</p>
+                            <p class="section-5-system-desc">Trang thiết bị khám và siêu âm hiện đại: Hỗ trợ cho việc
+                                theo dõi nang noãn và nội mạc tử cung.</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/section5/EmbryoStorageSystem.png" class="section-5-system-img">
+                            <p class="section-5-system-title">Phòng Siêu Âm</p>
+                            <p class="section-5-system-desc">Hệ thống lưu trữ phôi bằng hơi ni tơ: Lần đầu tiên được sử
+                                dụng trong IVF tại Việt Nam giúp an toàn lưu trữ, tránh lây nhiễm chéo giữa các phôi.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/section5/WarningSystem.png" class="section-5-system-img">
+                            <p class="section-5-system-title">Hệ Thống Cảnh Báo</p>
+                            <p class="section-5-system-desc">Hệ thống cảnh báo toàn diện cho toàn labo (DATAssure).</p>
+                        </div>
                     </div>
-
+                </div>
+                <div class="button">
+                    <label for="one" class=" active one"></label>
+                    <label for="two" class="two"></label>
+                    <label for="three" class="three"></label>
                 </div>
             </div>
 
