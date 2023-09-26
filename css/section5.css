@@ -222,97 +222,7 @@
     line-height: normal;
 }
 
-.wrapper {
-    max-width: 1100px;
-    width: 100%;
-    position: relative;
-  }
-  .wrapper i {
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    font-size: 1.25rem;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
-  }
-  .wrapper i:active{
-    transform: translateY(-50%) scale(0.85);
-  }
-  .wrapper i:first-child{
-    left: -22px;
-  }
-  .wrapper i:last-child{
-    right: -22px;
-  }
-  .wrapper .carousel{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 12px);
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 16px;
-    border-radius: 8px;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-  }
-  .carousel::-webkit-scrollbar {
-    display: none;
-  }
-  .carousel.no-transition {
-    scroll-behavior: auto;
-  }
-  .carousel.dragging {
-    scroll-snap-type: none;
-    scroll-behavior: auto;
-  }
-  .carousel.dragging .card {
-    cursor: grab;
-    user-select: none;
-  }
-  .carousel :where(.card, .img) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
- 
-  .carousel .card {
-    scroll-snap-align: start;
-    height: 342px;
-    list-style: none;
-    background: #fff;
-    cursor: pointer;
-    padding-bottom: 15px;
-    flex-direction: column;
-    border-radius: 8px;
-  }
-  .carousel .card .img {
-    width: 100%;
-  
-  }
-  .card .img img {
-    width: 100%;
-  }
-  .carousel .card h2 {
-    font-weight: 500;
-    font-size: 1.56rem;
-    margin: 30px 0 5px;
-  }
-  .carousel .card span {
-    color: #6A6D78;
-    font-size: 1.31rem;
-  }
-  @media screen and (max-width: 900px) {
-    .wrapper .carousel {
-      grid-auto-columns: calc((100% / 2) - 9px);
-    }
-  }
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .section-5-layout {
@@ -335,9 +245,7 @@
     .section-5-technology-content {
         margin-left: 40px;
     }
-
-}
-
+    
 .container {
     max-width: 950px;
     width: 100%;
@@ -352,15 +260,21 @@
     transition: 1s;
 }
 
+
+#one:checked~.main-card {
+    margin-right: -5%;
+}
+
 #two:checked~.main-card {
     margin-left: -100%;
 }
 #three:checked~.main-card {
-    margin-left: -200%;
+    margin-left: -150%;
+
 }
 
 .container .main-card .cards {
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 2 - 10px);
     display: flex;
     flex-wrap: wrap;
     margin: 0 20px;
@@ -491,13 +405,6 @@ input[type="radio"] {
     display: none;
 }
 
-@media (max-width: 768px) {
-    .main-card .cards .card {
-        margin: 20px 0 10px 0;
-        width: calc(100% / 2 - 10px);
-    }
-}
-
 label.two{
     border: 1px solid green;
 }
@@ -508,10 +415,74 @@ label.three{
     border: 1px solid green;
 }
 
+}
 
 
 @media screen and (max-width: 767px) {
+   
+    #section-5 {
+        padding: 0;
+    }
 
+    .section-5-title .text-dark-secondary-bold {
+        text-align: left;
+    }
+
+    .textLeft {
+        text-align: left !important;
+    }
+
+    .section-5-technology {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-5-technology-content {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .mb_block {
+        display: block;
+
+    }
+
+    .section-5-layout {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .section-5-time-lapse-left,
+    .section-5-time-lapse-right {
+        width: 100%;
+    }
+
+    .button-secondary-text {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    img.section-5-time-lapse-left-img {
+        width: 100%;
+    }
+
+    .section-5-button {
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 41px;
+        margin-bottom: 50px;
+    }
+
+    .section-5-time-lapse {
+        margin: 0;
+    }
     .container {
         max-width: 950px;
         width: 100%;
@@ -526,25 +497,35 @@ label.three{
         transition: 1s;
     }
     
+    
+    #one:checked~.main-card {
+        margin-right: -5%;
+    }
+    
     #two:checked~.main-card {
         margin-left: -100%;
     }
     #three:checked~.main-card {
-        margin-left: -200%;
+        margin-left: -150%;
+    
     }
     
     .container .main-card .cards {
-        width: calc(100% / 3 - 10px);
+        width: calc(100% / 2 - 10px);
         display: flex;
         flex-wrap: wrap;
         margin: 0 20px;
         justify-content: space-between;
     }
     
-    .main-card .cards .card{
-        margin: 20px 0 10px 0;
-        width: calc(100% / 2 - 10px);
-      } 
+    .main-card .cards .card {
+        width: calc(100% / 3 - 10px);
+        background: #fff;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+        transition: all 0.4s ease;
+    }
     
     .main-card .cards .card:hover {
         transform: translateY(-15px);
@@ -660,74 +641,15 @@ label.three{
     input[type="radio"] {
         display: none;
     }
-
-    #section-5 {
-        padding: 0;
+    
+    label.two{
+        border: 1px solid green;
     }
-
-    .section-5-title .text-dark-secondary-bold {
-        text-align: left;
+    label.one{
+        border: 1px solid green;
     }
-
-    .textLeft {
-        text-align: left !important;
+    label.three{
+        border: 1px solid green;
     }
-
-    .section-5-technology {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .section-5-technology-content {
-        margin-left: 0;
-        margin-bottom: 50px;
-    }
-
-    .hidden {
-        display: none;
-    }
-
-    .mb_block {
-        display: block;
-
-    }
-
-    .section-5-layout {
-        flex-direction: column;
-        margin-top: 30px;
-    }
-
-    .section-5-time-lapse-left,
-    .section-5-time-lapse-right {
-        width: 100%;
-    }
-
-    .button-secondary-text {
-        font-size: 15px;
-        white-space: nowrap;
-    }
-
-    img.section-5-time-lapse-left-img {
-        width: 100%;
-    }
-
-    .section-5-button {
-        display: block;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 41px;
-        margin-bottom: 50px;
-    }
-
-    .section-5-time-lapse {
-        margin: 0;
-    }
+   
 }
-@media (max-width: 600px) {
-    .main-card .cards .card{
-      /* margin: 20px 0 10px 0; */
-      width: 100%;
-    }
-  }
