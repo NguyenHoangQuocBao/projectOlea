@@ -222,6 +222,174 @@
     line-height: normal;
 }
 
+.container {
+    max-width: 950px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.container .main-card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300%;
+    transition: 1s;
+}
+
+
+#one:checked~.main-card {
+    margin-right: -5%;
+}
+
+#two:checked~.main-card {
+    margin-left: -100%;
+}
+#three:checked~.main-card {
+    margin-left: -150%;
+
+}
+
+.container .main-card .cards {
+    width: calc(100% / 2 - 10px);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: space-between;
+}
+
+.main-card .cards .card {
+    width: calc(100% / 3 - 10px);
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease;
+}
+
+.main-card .cards .card:hover {
+    transform: translateY(-15px);
+}
+
+.cards .card .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards .card .content .img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #FF676D;
+    margin-bottom: 14px;
+}
+
+.card .content .img img {
+    height: 100%;
+    width: 100%;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card .content .name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card .content .job {
+    font-size: 20px;
+    color: #FF676D;
+}
+
+.card .content .media-icons {
+    margin-top: 10px;
+    display: flex;
+}
+
+.media-icons a {
+    text-align: center;
+    line-height: 33px;
+    height: 35px;
+    width: 35px;
+    margin: 0 4px;
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background: #FF676D;
+    transition: all 0.3s ease;
+}
+
+.media-icons a:hover {
+    color: #FF676D;
+    background-color: #fff;
+    border-color: #FF676D;
+}
+
+.container .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.button label {
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    background: #fff;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.button label.active {
+    width: 15px;
+}
+
+#one:checked~.button .one {
+    width: 15px;
+    border: 5px solid green;
+}
+
+#one:checked~.button .two {
+    width: 15px;
+}
+
+#two:checked~.button .one {
+    width: 15px;
+}
+
+#two:checked~.button .two {
+    width: 15px;
+    border: 5px solid green;
+
+
+}
+#three:checked~.button .three {
+    width: 15px;
+    border: 5px solid green;
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label.two{
+    border: 1px solid green;
+}
+label.one{
+    border: 1px solid green;
+}
+label.three{
+    border: 1px solid green;
+}
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
