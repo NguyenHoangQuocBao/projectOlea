@@ -54,6 +54,13 @@
     margin-right: 5px;
     background: #436300;
 }
+.section-11-right{
+    width: 50%;
+}
+.section-11-right img{
+    width: 100%;
+
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container{

@@ -71,25 +71,41 @@ footer {
     footer {
         padding: 50px 0 50px 0;
     }
-
     .container {
+        padding-top: 0;
         width: 100%;
+        overflow: unset;
     }
-
-    .footer-left {
-        width: 70%
+    .footer-right{
+        text-align: center;
     }
-
-    .footer-right {
-        width: 30%;
-    }
-
     .footer-right img {
+        width: 70%;
+    }
+    .footer-social-img{
+        margin-right: 0;
+    }
+    .footer-social{
+        position: relative;
+    }
+    .footer-social-container {
+        margin-top: 0;
+        justify-content: space-between;
+    }
+    .footer-copyright{
+        bottom: 0;
+        height: 50px;
+        transform: translateY(100%);
+        position: absolute;
+        text-align: center;
         width: 100%;
     }
-
-    .footer-social-container {
-        justify-content: start;
+    .footer-copyright span{
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+        padding-top: 16px;
+        border-top: 3px solid #fff;
     }
 }
 
