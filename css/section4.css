@@ -129,6 +129,7 @@
     transition: all ease 0.5s;
     cursor: pointer;
     margin-top: 14px;
+    width: 50%;
 }
 
 .section-4-consultation-right img:hover{
@@ -136,7 +137,7 @@
 }
 
 .section-4-reception{
-    margin: 0 -50px;
+    margin: 0;
     margin-top: 74px;
     display: inline-block;
     position: relative;
@@ -254,7 +255,9 @@
         order: 2;
     }
    
-    
+    .section-4-consultation-right img{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 767px) {
     .text-dark-secondary-bold{
