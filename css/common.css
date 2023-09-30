@@ -83,6 +83,7 @@
 .button-primary {
   background-color: var(--primary-color-1);
   border-radius: 40px;
+  border: none;
 
   padding-top: 11px;
   padding-bottom: 11px;
@@ -96,6 +97,8 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+  transition: all .5s;
 }
 
 .button-while-circle {
@@ -114,11 +117,33 @@
   color: var(--primary-color-1);
 }
 
+.button-primary:hover{
+  border-radius: 40px;
+  border: 1px solid #ABBD38;
+  background-color: #fff;
+
+  color: #ABBD38;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button-primary:hover .button-while-circle{
+  background-color: #ABBD38;
+}
+
+.button-primary:hover .button-while-circle i{
+  color: #fff;
+}
+
 .button-secondary {
   background-color: #fff;
   padding: 13px 85px;
   border-radius: 50px;
   border: 1px solid #436300;
+  transition: all 0.5s;
 }
 
 .button-secondary-text {
@@ -129,6 +154,11 @@
   font-weight: 400;
   line-height: normal;
 }
+
+.button-secondary:hover{
+  background-color: #E8F1DA;
+}
+
 
 /* Toggle */
 .switch {
