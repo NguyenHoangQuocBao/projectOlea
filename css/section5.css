@@ -222,14 +222,13 @@
     line-height: normal;
 }
 
-.container {
-    max-width: 950px;
+.container-card {
     width: 100%;
     overflow: hidden;
     padding-top: 80px;
 }
 
-.container .main-card {
+.container-card .main-card {
     display: flex;
     justify-content: space-evenly;
     width: 300%;
@@ -250,7 +249,7 @@
 
 }
 
-.container .main-card .cards {
+.container-card .main-card .cards {
     width: calc(100% / 2 - 10px);
     display: flex;
     flex-wrap: wrap;
